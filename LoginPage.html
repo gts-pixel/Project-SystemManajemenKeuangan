@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - FinMate</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Header Biru Tua -->
+    <div class="top-banner"></div>
+
+    <main class="page-wrapper">
+        <!-- Logo & Judul -->
+        <header class="brand-header">
+            <img src="logo-finmate.png" alt="FinMate Logo" class="brand-logo">
+            <h1 class="brand-title">FinMate</h1>
+        </header>
+
+        <!-- Card Login Utama -->
+        <section class="login-card">
+            <!-- Kolom Kiri: Social & Guest -->
+            <div class="auth-providers">
+                <h2 class="providers-heading">Using social networking accounts</h2>
+
+                <button type="button" class="provider-btn">
+                    <img src="google-icon.png" alt="Google" class="provider-icon">
+                    <span>Sign in with Google</span>
+                </button>
+
+                <button type="button" class="provider-btn">
+                    <img src="guest-icon.png" alt="Guest" class="provider-icon">
+                    <span>Sign in as Guest</span>
+                </button>
+            </div>
+
+            <!-- Garis Pemisah -->
+            <div class="divider" aria-hidden="true"></div>
+
+            <!-- Kolom Kanan: Form Email & Password -->
+            <form class="login-form" action="#" method="POST">
+                <div class="input-group">
+                    <input type="email" class="form-input" placeholder="Email" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class="form-input" placeholder="Password" required>
+                </div>
+
+                <div class="form-meta">
+                    <a href="#" class="forgot-link">Forgot Password</a>
+                </div>
+
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
